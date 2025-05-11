@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 # Load model and tools
-model = joblib.load("/Users/destianiic/Documents/final_submission/model.pkl")
-scaler = joblib.load("/Users/destianiic/Documents/final_submission/scaler.pkl")
-feature_names = joblib.load("/Users/destianiic/Documents/final_submission/feature_names.pkl")
+model = joblib.load("model.pkl")
+scaler = joblib.load("scaler.pkl")
+feature_names = joblib.load("feature_names.pkl")
 
 st.title("🎓 Student Performance Predictor")
 
