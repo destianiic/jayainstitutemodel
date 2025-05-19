@@ -60,26 +60,26 @@ with st.expander("📚 Academic Performance"):
     st.markdown("**1st Semester**")
     col1, col2, col3 = st.columns(3)
     with col1:
-        c1_credit = st.number_input("Credited Units", 0)
-        c1_enrolled = st.number_input("Enrolled Units", 0)
+        c1_credit = st.number_input("Credited Units", 0, key="c1_credit")
+        c1_enrolled = st.number_input("Enrolled Units", 0, key="c1_enrolled")
     with col2:
-        c1_eval = st.number_input("Evaluations", 0)
-        c1_approved = st.number_input("Approved Units", 0)
+        c1_eval = st.number_input("Evaluations", 0, key="c1_eval")
+        c1_approved = st.number_input("Approved Units", 0, key="c1_approved")
     with col3:
-        c1_grade = st.number_input("Grade", 0.0, 20.0)
-        c1_wo_eval = st.number_input("Units w/o Evaluation", 0)
+        c1_grade = st.number_input("Grade", 0.0, 20.0, key="c1_grade")
+        c1_wo_eval = st.number_input("Units w/o Evaluation", 0, key="c1_wo_eval")
 
     st.markdown("**2nd Semester**")
     col1, col2, col3 = st.columns(3)
     with col1:
-        c2_credit = st.number_input("Credited Units", 0)
-        c2_enrolled = st.number_input("Enrolled Units", 0)
+        c2_credit = st.number_input("Credited Units", 0, key="c2_credit")
+        c2_enrolled = st.number_input("Enrolled Units", 0, key="c2_enrolled")
     with col2:
-        c2_eval = st.number_input("Evaluations", 0)
-        c2_approved = st.number_input("Approved Units", 0)
+        c2_eval = st.number_input("Evaluations", 0, key="c2_eval")
+        c2_approved = st.number_input("Approved Units", 0, key="c2_approved")
     with col3:
-        c2_grade = st.number_input("Grade", 0.0, 20.0)
-        c2_wo_eval = st.number_input("Units w/o Evaluation", 0)
+        c2_grade = st.number_input("Grade", 0.0, 20.0, key="c2_grade")
+        c2_wo_eval = st.number_input("Units w/o Evaluation", 0, key="c2_wo_eval")
 
 with st.expander("📈 Economic Indicators"):
     col1, col2, col3 = st.columns(3)
