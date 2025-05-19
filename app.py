@@ -126,4 +126,4 @@ if st.button("🎯 Predict Student Outcome"):
 
 # Footer
 st.divider()
-st.markdown("Made with ❤️ using Streamlit")
+st.markdown("Made by DestianiIC")
